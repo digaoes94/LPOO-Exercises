@@ -8,6 +8,6 @@
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.release>24</maven.compiler.release>
-        <exec.mainClass>exercises.un4.un4_exer.UN4_EXER</exec.mainClass>
+        <exec.mainClass>exercises.un4.un4_exer.UsaAutomovel</exec.mainClass>
     </properties>
 </project>
