@@ -4,7 +4,7 @@ public class AutoBasico extends Automovel {
     private boolean retrovisorPassageiro,
             limpadorTraseiro,
             radioAMFM;
-    private double valor;
+    protected double valor;
 
     public AutoBasico(boolean retrovisorPassageiro, boolean limpadorTraseiro, boolean radioAMFM, int idMotor, String modelo, String cor) {
         super(idMotor, modelo, cor);
