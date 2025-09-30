@@ -4,7 +4,7 @@ public class Automovel {
     public static final int NUM_MAX_PRESTACOES = 24;
     private MOTOR motor;
     private String modelo, cor, combustivel;
-    private Double precoBase;
+    protected Double precoBase;
 
     public Automovel(int idMotor, String modelo, String cor) {
         this.motor = MOTOR.setMotor(idMotor);
@@ -27,6 +27,10 @@ public class Automovel {
         }
         
         return aux;
+    }
+    
+    public Double getPrecoBase() {
+        return this.precoBase;
     }
     
     @Override
