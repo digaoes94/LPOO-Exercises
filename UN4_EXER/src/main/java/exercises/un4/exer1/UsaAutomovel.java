@@ -51,4 +51,28 @@ public class UsaAutomovel {
         scan.nextLine();
         return opcao;
     }
+    
+    private static void pesquisarAuto(ArrayList<Automovel> lista) {
+        String pesquisa;
+        System.out.print("Favor informar o modelo do carro: ");
+        pesquisa = scan.nextLine();
+        
+        for(Automovel auto : lista) {
+            if(auto.getModelo().equalsIgnoreCase(pesquisa)) {
+                System.out.println(auto.toString());
+            }
+        }
+    }
+    
+    private static void inserirAuto(ArrayList<Automovel> lista) {
+        
+    }
+    
+    private static void excluirAuto(ArrayList<Automovel> lista) {
+        
+    }
+    
+    private static void listarAutos(ArrayList<Automovel> lista) {
+        
+    }
 }
